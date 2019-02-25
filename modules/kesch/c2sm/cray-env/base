@@ -7,7 +7,7 @@ module           load c2sm/base
 
 module           load PrgEnv-cray
 module           load craype-accel-nvidia35
-module           load netCDF-Fortran/4.4.4-CrayCCE-17.06
+module           load netCDF-Fortran/4.4.4-CrayCCE-18.12
 global           EBROOTNETCDF
 setenv           NETCDF_PATH $env(EBROOTNETCDF)
 
